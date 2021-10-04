@@ -2,7 +2,7 @@
     "name": "oscarbarrett/craft-asset-lockdown",
     "description": "Extends Craft CMS permissions to allow locking down access to the Assets Page but still allow uploading.",
     "type": "craft-plugin",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "keywords": [
         "craft",
         "cms",

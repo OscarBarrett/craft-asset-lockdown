@@ -82,7 +82,7 @@ class AssetLockdown extends Plugin
             });
 
             // Disallow requests to the assets page
-            if (sizeof($request->segments) === 1 && $request->segments[0] === 'assets') {
+            if (sizeof($request->segments) >= 1 && $request->segments[0] === 'assets') {
                 throw new ForbiddenHttpException('You are not permitted to view the assets page.');
             }
         }
